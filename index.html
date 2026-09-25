@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>A Origem e Evolução do CSS</title>
+
+<meta name="description" content="Linha do tempo visual sobre a origem e evolução do CSS.">
+
+<link rel="icon" href="img/logo.png" type="image/png">
+
+<link rel="stylesheet" href="css/style.css">
+```
+
+</head>
+
+<body>
+
+```
+<div class="fundo-blur fundo-1"></div>
+<div class="fundo-blur fundo-2"></div>
+
+<div class="pagina">
+
+    <header id="inicio" class="hero">
+
+        <div class="hero-conteudo">
+
+            <div class="hero-logo">
+                <img src="img/logo.png" alt="Logo do projeto">
+            </div>
+
+            <div class="hero-texto">
+
+                <span class="etiqueta">
+                    FRONT-END • CSS
+                </span>
+
+                <h1>
+                    A Origem e
+                    <span>Evolução do CSS</span>
+                </h1>
+
+                <p>
+                    Da Web sem estilo aos layouts modernos.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="hero-linha">
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+    </header>
+
+    <nav id="menu" aria-label="Navegação principal">
+
+        <a href="#inicio">
+            <span>01</span>
+            Início
+        </a>
+
+        <a href="#problema">
+            <span>02</span>
+            O problema
+        </a>
+
+        <a href="#linha-do-tempo">
+            <span>03</span>
+            Linha do tempo
+        </a>
+
+        <a href="#modulos">
+            <span>04</span>
+            CSS3 modular
+        </a>
+
+        <a href="#conclusao">
+            <span>05</span>
+            Conclusão
+        </a>
+
+    </nav>
+
+    <main>
+
+        <section class="abertura">
+
+            <div class="abertura-texto">
+
+                <span class="mini-titulo">
+                    BEM-VINDO À LINHA DO TEMPO
+                </span>
+
+                <h2>
+                    Como o CSS mudou
+                    <strong>a aparência da Web</strong>
+                </h2>
+
+                <p>
+                    Esta página apresenta, em ordem cronológica,
+                    alguns dos principais momentos da evolução
+                    das folhas de estilo, desde a proposta inicial
+                    até os recursos presentes no CSS moderno.
+                </p>
+
+                <a href="#linha-do-tempo" class="botao">
+                    Explorar a história
+                    <span>→</span>
+                </a>
+
+            </div>
+
+            <div class="codigo-decorativo">
+
+                <div class="codigo-topo">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <pre><code>.pagina {
+display: grid;
+gap: 24px;
+color: #6a3fb5;
+```
+
+}
+
+.timeline {
+position: relative;
+}</code></pre>
+
+```
+            </div>
+
+        </section>
+
+        <section id="problema" class="secao">
+
+            <div class="titulo-secao">
+
+                <div>
+                    <span>CAPÍTULO 01</span>
+
+                    <h2>
+                        O problema antes do CSS
+                    </h2>
+                </div>
+
+                <p>
+                    Antes das folhas de estilo,
+                    estrutura e aparência estavam
+                    muito mais misturadas.
+                </p>
+
+            </div>
+
+            <div class="cards-problema">
+
+                <article class="card-problema card-roxo">
+
+                    <div class="icone">
+                        01
+                    </div>
+
+                    <h3>
+                        Antes do CSS
+                    </h3>
+
+                    <p>
+                        As primeiras páginas eram documentos
+                        com poucos recursos visuais. Para mudar
+                        a aparência, eram usados elementos como
+                        <code>&lt;font&gt;</code> e
+                        <code>&lt;center&gt;</code>, além de
+                        tabelas para estruturar partes do layout.
+                    </p>
+
+                </article>
+
+                <article class="card-problema card-laranja">
+
+                    <div class="icone">
+                        02
+                    </div>
+
+                    <h3>
+                        As consequências
+                    </h3>
+
+                    <p>
+                        A repetição de estilos deixava o código
+                        maior e dificultava alterações. Uma simples
+                        mudança visual poderia exigir edições em
+                        várias páginas.
+                    </p>
+
+                </article>
+
+                <article class="card-problema card-teal">
+
+                    <div class="icone">
+                        03
+                    </div>
+
+                    <h3>
+                        A ideia do CSS
+                    </h3>
+
+                    <p>
+                        A proposta foi separar estrutura e
+                        apresentação. Dessa maneira, um arquivo
+                        de estilos poderia controlar a aparência
+                        de diferentes documentos.
+                    </p>
+
+                </article>
+
+            </div>
+
+            <article class="bloco-origem">
+
+                <div class="origem-ano">
+                    1994
+                </div>
+
+                <div class="origem-conteudo">
+
+                    <span>
+                        O início da proposta
+                    </span>
+
+                    <h3>
+                        Håkon Wium Lie apresenta
+                        a ideia das folhas de estilo
+                    </h3>
+
+                    <p>
+                        A proposta surge no CERN e,
+                        junto com o trabalho de Bert Bos,
+                        evolui até se transformar em uma
+                        tecnologia voltada à separação entre
+                        conteúdo e apresentação.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        <section id="linha-do-tempo" class="secao secao-timeline">
+
+            <div class="titulo-secao">
+
+                <div>
+                    <span>CAPÍTULO 02</span>
+
+                    <h2>
+                        Linha do tempo
+                    </h2>
+                </div>
+
+                <p>
+                    Dos primeiros padrões às ferramentas
+                    usadas para construir layouts atuais.
+                </p>
+
+            </div>
+
+            <div class="timeline">
+
+                <article class="evento esquerda">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            1994
+                        </span>
+
+                        <h3>
+                            Proposta do CSS
+                        </h3>
+
+                        <p>
+                            Håkon Wium Lie apresenta a ideia
+                            das folhas de estilo no CERN,
+                            iniciando uma proposta que buscava
+                            separar conteúdo e apresentação.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="evento direita">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            1996
+                        </span>
+
+                        <h3>
+                            CSS1
+                        </h3>
+
+                        <p>
+                            O W3C publica o primeiro nível do CSS,
+                            trazendo propriedades para fontes,
+                            cores, margens, bordas e alinhamento
+                            de texto.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="evento esquerda">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            1998
+                        </span>
+
+                        <h3>
+                            CSS2
+                        </h3>
+
+                        <p>
+                            O CSS2 amplia os recursos de
+                            posicionamento, tipos de mídia,
+                            seletores e organização visual
+                            dos elementos.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="evento direita">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            1999
+                        </span>
+
+                        <h3>
+                            Início do CSS3
+                        </h3>
+
+                        <p>
+                            A evolução passa a caminhar em
+                            direção a módulos independentes,
+                            permitindo que diferentes partes
+                            do CSS avancem separadamente.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="evento esquerda">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            2011
+                        </span>
+
+                        <h3>
+                            CSS 2.1 e novos módulos
+                        </h3>
+
+                        <p>
+                            O CSS 2.1 organiza e corrige pontos
+                            da especificação anterior, enquanto
+                            módulos como Color e Selectors
+                            continuam avançando.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="evento direita">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            2012
+                        </span>
+
+                        <h3>
+                            Media Queries
+                        </h3>
+
+                        <p>
+                            As media queries permitem adaptar
+                            estilos de acordo com características
+                            da tela, contribuindo para páginas
+                            responsivas.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="evento esquerda">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            2017+
+                        </span>
+
+                        <h3>
+                            Flexbox e Grid
+                        </h3>
+
+                        <p>
+                            Flexbox facilita o alinhamento em
+                            uma dimensão, enquanto Grid permite
+                            organizar elementos em linhas e
+                            colunas.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="evento direita">
+
+                    <div class="evento-conteudo">
+
+                        <span class="evento-ano">
+                            HOJE
+                        </span>
+
+                        <h3>
+                            CSS moderno
+                        </h3>
+
+                        <p>
+                            Recursos como Custom Properties,
+                            Container Queries, <code>:has()</code>
+                            e <code>@layer</code> ampliam
+                            ainda mais as possibilidades do CSS.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="modulos" class="secao">
+
+            <div class="titulo-secao">
+
+                <div>
+                    <span>CAPÍTULO 03</span>
+
+                    <h2>
+                        O modelo modular do CSS3
+                    </h2>
+                </div>
+
+                <p>
+                    O CSS moderno é dividido em diferentes
+                    módulos e áreas de especificação.
+                </p>
+
+            </div>
+
+            <div class="modulos-grid">
+
+                <article class="modulo modulo-roxo">
+
+                    <span class="modulo-numero">
+                        01
+                    </span>
+
+                    <h3>
+                        Selectors
+                    </h3>
+
+                    <p>
+                        Permitem selecionar elementos
+                        de maneira mais precisa.
+                    </p>
+
+                    <div class="modulo-linha"></div>
+
+                </article>
+
+                <article class="modulo modulo-laranja">
+
+                    <span class="modulo-numero">
+                        02
+                    </span>
+
+                    <h3>
+                        Color
+                    </h3>
+
+                    <p>
+                        Define formas de trabalhar com
+                        cores e transparências.
+                    </p>
+
+                    <div class="modulo-linha"></div>
+
+                </article>
+
+                <article class="modulo modulo-teal">
+
+                    <span class="modulo-numero">
+                        03
+                    </span>
+
+                    <h3>
+                        Backgrounds &amp; Borders
+                    </h3>
+
+                    <p>
+                        Permite criar fundos, bordas,
+                        gradientes e sombras.
+                    </p>
+
+                    <div class="modulo-linha"></div>
+
+                </article>
+
+                <article class="modulo modulo-rosa">
+
+                    <span class="modulo-numero">
+                        04
+                    </span>
+
+                    <h3>
+                        Media Queries
+                    </h3>
+
+                    <p>
+                        Aplicam estilos de acordo com
+                        características da tela.
+                    </p>
+
+                    <div class="modulo-linha"></div>
+
+                </article>
+
+                <article class="modulo modulo-azul">
+
+                    <span class="modulo-numero">
+                        05
+                    </span>
+
+                    <h3>
+                        Flexbox
+                    </h3>
+
+                    <p>
+                        Organiza elementos em uma
+                        dimensão com flexibilidade.
+                    </p>
+
+                    <div class="modulo-linha"></div>
+
+                </article>
+
+                <article class="modulo modulo-violeta">
+
+                    <span class="modulo-numero">
+                        06
+                    </span>
+
+                    <h3>
+                        Grid
+                    </h3>
+
+                    <p>
+                        Organiza layouts utilizando
+                        linhas e colunas.
+                    </p>
+
+                    <div class="modulo-linha"></div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="conclusao" class="conclusao">
+
+            <div class="conclusao-icone">
+                CSS
+            </div>
+
+            <div>
+
+                <span>
+                    CONCLUSÃO
+                </span>
+
+                <h2>
+                    Da necessidade à evolução
+                </h2>
+
+                <p>
+                    O CSS surgiu para resolver a mistura entre
+                    conteúdo e aparência. Com o passar dos anos,
+                    deixou de oferecer apenas recursos básicos
+                    de apresentação e passou a reunir ferramentas
+                    para criar layouts responsivos, organizados
+                    e cada vez mais completos.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="rodape">
+
+        <div class="rodape-logo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+        <div class="rodape-texto">
+
+            <strong>
+                Grupo 07
+            </strong>
+
+            <span>
+                A origem e evolução do CSS
+            </span>
+
+        </div>
+
+        <div class="rodape-info">
+
+            <p>
+                Disciplina: Front-End
+            </p>
+
+            <p>
+```
